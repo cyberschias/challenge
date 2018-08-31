@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+h1, h2, h3
+h4, h5, h6 {
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.header,
+.marketing,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+
+.main {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.main .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+}
+
+
+.marketing {
+    margin: 40px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .header,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .header {
+        margin-bottom: 30px;
+    }
+    .main {
+        border-bottom: 0;
+    }
+}
+
+.btn-send {
+    margin-top: 20px;
+}
